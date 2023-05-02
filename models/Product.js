@@ -26,8 +26,15 @@ Product.init(
       validate: {
         isDecimal:true,
       }
+    },
+    stock: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      default:10,
+      validate: {
+        isNumeric:true,
+      }
     }
-
   },
   {
     sequelize,
