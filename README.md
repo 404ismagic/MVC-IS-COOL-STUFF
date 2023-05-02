@@ -1,2 +1,1 @@
-# MVC-IS-COOL-STUFF
-cool code code for mod 13 
+# E-commerce Back End Starter Code
